@@ -5,7 +5,8 @@ endblock %} {% block body%}
 
   <h1 class="title">Hello from Madagascar</h1>
   <p>
-    ⏰ It's currently <span>{{'now'| date("H:i A")}}</span> in Madagascar  🇲🇬
+    ⏰ It's currently <span>{{'now'| date("H:i A", 'Africa/Nairobi')}}</span> in
+    Madagascar  🇲🇬
   </p>
   <hr />
   <p>RaveloMevaSoavina &copy; Copyright {{'now' | date("Y")}}</p>
