@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %} {% block title %}Madagascar | {{ parent() }}{%
+endblock %} {% block body%}
+<div class="container">
+  <img alt="flag-mdg" src="/img/madagascar-flag-medium.png" />
+  <h1 class="title">Hello from Madagascar</h1>
+  <p>
+    ⏰ It's currently <span>{{'now'| date("H:i A")}}</span> in Madagascar
+  </p>
+  <hr />
+  <p>RaveloMevaSoavina &copy; Copyright {{'now' | date("Y")}}</p>
+</div>
+{% endblock %}
