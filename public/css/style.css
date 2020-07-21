@@ -6,6 +6,7 @@
 body {
   background: url("../img/theme-inn-yPSbirjJWzs-unsplash.jpg") no-repeat;
   background-size: cover;
+  background-position: center/center;
 }
 
 .container {
